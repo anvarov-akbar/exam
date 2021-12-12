@@ -1,0 +1,102 @@
+.payments__list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.payments__item__first{
+    max-width: 350px;
+    width: 100%;
+}
+.payments__item__first::before{
+ max-width: 106px;
+width: 100%;
+ max-height: 106px;
+ height: 100%;
+ content: url("../images/payments/finances.png");
+}
+
+.payments__item__second{
+    max-width: 350px;
+    width: 100%;
+}
+.payments__item__second::before{
+    max-width: 106px;
+width: 100%;
+ max-height: 106px;
+ height: 100%;
+content: url(../images/payments/banking.png);
+}
+
+.payments__item__thirt{
+    max-width: 350px;
+    width: 100%;
+}
+.payments__item__thirt::before{
+    max-width: 106px;
+    width: 100%;
+     max-height: 106px;
+     height: 100%;
+    content: url(../images/payments/payment.png);
+}
+
+.payments__item__heading{
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    padding-top: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.138462px;
+    color: #36536B;
+}
+.payments__item__paragraph{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #6C8294;
+}
+
+@media only screen and(max-width: 850px)  {
+    .payments__list{
+       max-width: 700px;
+       width: 100%;
+    }
+}
+@media only screen and(max-width: 680px){
+    .payments .container{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .payments__list{
+        max-width: 328px;
+        width: 100%;
+        align-items: center;
+    flex-direction: column;
+    }
+    .payments__item__first{
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+    .payments__item__second{
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+    .payments__item__thirt{
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+}

@@ -72,6 +72,7 @@ content: url(../images/payments/banking.png);
 }
 @media only screen and(max-width: 680px){
     .payments .container{
+        margin-bottom: 80px;
         padding: 0 20px;
         display: flex;
         flex-direction: column;
@@ -94,9 +95,5 @@ content: url(../images/payments/banking.png);
         margin: 0 auto;
         margin-bottom: 48px;
     }
-    .payments__item__thirt{
-        align-items: center;
-        margin: 0 auto;
-        margin-bottom: 48px;
-    }
+    
 }

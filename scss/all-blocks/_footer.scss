@@ -1,0 +1,48 @@
+.footer .container{
+    padding-bottom: 20px;
+}
+.footer__inner{
+max-width: 1440px;
+width: 100%;
+padding: 31px 20px;
+display: flex;
+align-items: center;
+background-color: #1B262F;
+}
+.footer .nav{
+ display: block;
+margin-left: 65px;
+}
+
+.footer .nav__link:hover{
+    color: #FBFCFE;
+}
+
+
+
+.site{
+    margin-left: auto;
+}
+.site__link + .site__link{
+    margin-left: 24px;
+}
+@media only screen and (max-width:667px){
+    .footer .logo__link{
+        margin-bottom: 40px;
+    }
+    .footer__inner{
+        height: 353px;
+        flex-direction: column;
+    
+    }
+    .footer .nav {
+        margin-left: 0;
+        display: inline-block;
+    }
+    .footer .nav__list{
+        flex-direction: column;
+    }
+    .site{
+        margin-left: 0;
+    }
+}

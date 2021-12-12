@@ -1,5 +1,6 @@
 .hero .container{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .hero__box{
@@ -115,7 +116,10 @@
 }
 
 @media only screen and(max-width: 665px){
-    
+    .hero .container{
+        margin-bottom: 80px;
+    }
+
     .hero__img{
         position: absolute;  
         top: 30px;

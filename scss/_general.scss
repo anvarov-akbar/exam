@@ -27,6 +27,7 @@ body{
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    background-color:  #EDF3F8;;
 }
 img{
     object-fit: cover;
@@ -57,4 +58,23 @@ box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
 
 }
 
+body{
+    background-image: url("../../images/hero/bgr.hero.png");
+    background-size: 780px;
+    background-repeat: no-repeat;
+   background-position: 675px -260px;
+}
+@media only screen and (max-width: 760px){
+    body{
+    
+       background-position: -45px -445px;
+    }
+}
 
+
+@media only screen and (max-width: 400px){
+    body{
+    
+       background-position: -235px -460px;
+    }
+}

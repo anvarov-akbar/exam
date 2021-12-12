@@ -6,13 +6,15 @@
 }
 
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 680px){
     .hamburger__close{
         display: none;
     }
 
  .header--active .hamburger__close{
      display: block;
+     position: fixed;
+     right: 35px;
  }
 
  .header--active .hamburger__open{

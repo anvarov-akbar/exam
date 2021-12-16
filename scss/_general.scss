@@ -38,43 +38,66 @@ main{
 }
 
 .button{
- width: 173px;
- margin: 0;
- padding: 14px 25px;
- align-items: center;
- text-decoration: none;
-font-weight: bold;
-font-size: 15px;
-line-height: 18px;
-letter-spacing: -0.115385px;
-border-radius: 24px;
-background-color: #BA4270;
-color: #FBFCFE;
+    width: 173px;
+    margin: 0;
+    padding: 14px 25px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.115385px;
+    border-radius: 24px;
+    background-color: #BA4270;
+    color: #FBFCFE;
+}
+
+.pricing__button{
+    width: 168px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 14px 25px;
+    align-items: center;
+    border: 1px solid #36536B;
+    box-sizing: border-box;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.115385px;
+    color: #36536B;
+    cursor: pointer;
+    
+}
+.pricing__button:hover{
+  background-color: #36536B;
+  color: #FBFCFE;
 }
 
 .button:hover{
-background-color: #DA6D97;
-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-
+    background-color: #DA6D97;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    
 }
 
 body{
     background-image: url("../../images/hero/bgr.hero.png");
     background-size: 780px;
     background-repeat: no-repeat;
-   background-position: 675px -260px;
+    background-position: 675px -260px;
 }
 @media only screen and (max-width: 760px){
     body{
-    
-       background-position: -45px -445px;
+        
+        background-position: -45px -445px;
     }
 }
 
 
 @media only screen and (max-width: 400px){
     body{
-    
-       background-position: -235px -460px;
+        
+        background-position: -235px -460px;
     }
 }
